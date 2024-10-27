@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MemberServiceImpl implements MemberService {
-    //private final MemberRepository memberRepository = new MemoryMemberRepositoty();
+    //private final MemberRepository memberRepository = new MemoryMemberRepository();
     //사실 MemberServiceImpl은 추상과 구체화 둘다 의존하고 있으  므로 DIP를 위반 하고 있다.
     private final MemberRepository memberRepository;
 
